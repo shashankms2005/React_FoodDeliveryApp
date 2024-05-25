@@ -28,6 +28,7 @@ Watch the demo video [here](https://youtu.be/3Doj-YHqZh4).
   - CSS
 
 - **Backend:**
+  - Javascript
   - Node.js
   - Express
 
