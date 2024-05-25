@@ -1,0 +1,38 @@
+.my-orders {
+  margin: 50px 50px;
+}
+.my-orders-order img {
+  width: 50px;
+}
+.my-orders-order {
+  border: 1px solid #353131;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+.price {
+  color: #b49b9b;
+}
+.address {
+  color: #b49b9b;
+}
+.my-orders-order select {
+  background-color: #ffe8e4;
+  border: 1px solid tomato;
+  width: max(12vw, 130px);
+  padding: 10px;
+  outline: none;
+}
+@media (max-width: 900px) {
+  .my-orders-order {
+    grid-template-columns: 1fr 2fr 1fr;
+    row-gap: 5px;
+    font-size: 12px;
+  }
+  .my-orders-order button {
+    font-size: 10px;
+  }
+}

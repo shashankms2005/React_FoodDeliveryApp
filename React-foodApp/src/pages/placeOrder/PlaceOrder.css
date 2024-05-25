@@ -1,0 +1,60 @@
+.place-order-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.delivery-info h2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.delivery-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.delivery-info-address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.address-non-deep,
+.address-deep,
+.delivery-info-name {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.input {
+  outline: none;
+  border: none;
+  border: 1px solid #c9c9c9;
+  padding: 10px;
+  border-radius: 4px;
+}
+.place-order-bottom {
+  width: 30%;
+}
+.cart-total button {
+  width: 80%;
+  align-self: center;
+}
+
+@media (max-width: 750px) {
+  .place-order-form {
+    flex-direction: column;
+  }
+  .delivery-info {
+    width: 80%;
+  }
+  .input-half {
+    width: 800%;
+  }
+  .place-order {
+    flex-direction: column;
+  }
+  .place-order-bottom {
+    margin-top: 25px;
+    width: 60%;
+  }
+}

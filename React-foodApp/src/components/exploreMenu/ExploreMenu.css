@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+.explore-menu h3,
+.explore-menu p {
+  font-family: outfit;
+  color: #747474;
+}
+.explore-menu h3 {
+  margin-bottom: 15px;
+}
+.explore-menu-img img {
+  width: 8vw;
+  min-width: 80px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.explore-menu-img p {
+  margin-top: 10px;
+  color: #747474;
+  font-size: max(1.4vw, 16px);
+  cursor: pointer;
+}
+.explore-menu-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  overflow-x: scroll;
+  text-align: center;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.explore-menu-img::-webkit-scrollbar {
+  display: none;
+}
+.activeCircle {
+  border: 4px solid tomato;
+  padding: 2px;
+}
+#menu > hr {
+  border: 1px solid #9c9b9b;
+  width: 100%;
+}
+@media (max-width: 1050px) {
+  .explore-menu p {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
